@@ -1,0 +1,14 @@
+{
+  "helloWorld": "Hello World!",
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "btn_save": "Save",
+  "client": "Client",
+  "cnpjcpf" : "CNPJ/CPF",
+  "zip_code" : "Zip Code",
+  "street" : "Street",
+  "phone" : "Phone",
+  "name" : "Name",
+  "service": "Service"
+}
