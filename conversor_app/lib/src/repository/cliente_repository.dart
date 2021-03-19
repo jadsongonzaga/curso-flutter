@@ -24,4 +24,9 @@ class ClienteRepository{
     return db.query('cliente');
   }
 
+  Future<int> remove(int id) async{
+    Database db = await _database;
+    return db.delete('cliente', where: 'id = ?', whereArgs: [id]);
+  }
+
 }

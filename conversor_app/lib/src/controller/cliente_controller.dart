@@ -53,6 +53,12 @@ class ClienteController with ChangeNotifier{
     return cliente;
   }
 
+  remove(int id){
+    ClienteRepository repository = ClienteRepository();
+    repository.remove(id);
+    notifyListeners();
+  }
+
 
 
 }

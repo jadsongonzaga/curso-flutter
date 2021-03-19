@@ -10,5 +10,9 @@
   "street" : "Street",
   "phone" : "Phone",
   "name" : "Name",
-  "service": "Service"
+  "service": "Service",
+  "msg_delete_client": "Do you want to delete the client",
+  "title_msg_delete": "Delete",
+  "yes":"Yes",
+  "no":"No"
 }

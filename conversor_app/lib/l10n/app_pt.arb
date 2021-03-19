@@ -10,5 +10,9 @@
   "street" : "Logradouro",
   "phone" : "Telefone",
   "name" : "Nome",
-  "service": "Serviço"
+  "service": "Serviço",
+  "msg_delete_client": "Deseja excluir o cliente",
+  "title_msg_delete": "Excluir",
+  "yes":"Sim",
+  "no":"Não"
 }
