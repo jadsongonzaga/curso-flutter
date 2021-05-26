@@ -32,6 +32,9 @@ dependencies:
   intl: ^0.17.0
   provider:
   url_launcher:
+  pdf: ^3.3.0
+  share_extend: ^2.0.0
+  open_file: ^3.2.1
 
 
 

@@ -52,7 +52,7 @@ class ClientePageState extends State<ClientePage> {
       child: SizedBox(
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height,
-          child: _form()
+          child: _form(cliente)
           /* Column(
           children: [
             Padding(
@@ -148,7 +148,23 @@ class ClientePageState extends State<ClientePage> {
               return null;
             },
             onSaved: (value)=>{ cliente.nome },
+          ),
+
+          TextFormField(
+            decoration:
+                InputDecoration(labelText: AppLocalizations.of(context).zip_code),
+            validator: (value) {
+              if (value.isEmpty) {
+                return 'Esse campo deve ser informado';
+              }
+              return null;
+            },
+            inputFormatters: [
+              MaskTextInputFormatter(mask: "##.###-###")
+            ],
+            onSaved: (value)=>{ cliente.cep },
           )
+
         ],
       ),
     );
